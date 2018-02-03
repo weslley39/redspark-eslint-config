@@ -1,0 +1,35 @@
+{
+  "name": "@redspark/eslint-config",
+  "version": "1.0.1",
+  "description": "Official eslint config to be shared across Redspark's apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/envisioning/eslint-config.git"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
+  },
+  "author": "Weslley Neri <@weslley39>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/envisioning/eslint-config/issues"
+  },
+  "homepage": "https://github.com/envisioning/eslint-config#readme"
+}
