@@ -37,3 +37,11 @@ If you will use with `AngularJs`, please add this too:
   "plugins": ["angular"],
 }
 ```
+
+If you will use with `React`, please add this too:
+
+```json
+{
+  "plugins": ["react"],
+}
+```
