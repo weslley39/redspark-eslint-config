@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/envisioning/eslint-config.git"
+    "url": "git+https://github.com/weslley39/redspark-eslint-config.git"
   },
   "peerDependencies": {
     "babel-eslint": "^8.0.1",
@@ -29,7 +29,7 @@
   "author": "Weslley Neri <@weslley39>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/envisioning/eslint-config/issues"
+    "url": "https://github.com/weslley39/redspark-eslint-config/issues"
   },
-  "homepage": "https://github.com/envisioning/eslint-config#readme"
+  "homepage": "https://github.com/weslley39/redspark-eslint-config#readme"
 }
