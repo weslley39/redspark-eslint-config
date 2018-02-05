@@ -3,8 +3,19 @@
 ## Usage
 1. Install peer dependencies
 
+Base
 ```bash
-yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-import
+yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import
+```
+
+React
+```bash
+yarn add -D eslint-plugin-jsx-a11y eslint-plugin-react
+```
+
+AngularJs
+```bash
+yarn add -D eslint-plugin-angular
 ```
 
 2. Install this package
@@ -16,5 +27,13 @@ yarn add -D @redspark/eslint-config
 ```json
 {
   "extends": "@redspark"
+}
+```
+
+If you will use with `AngularJs`, please add this too:
+
+```json
+{
+  "plugins": ["angular"],
 }
 ```
