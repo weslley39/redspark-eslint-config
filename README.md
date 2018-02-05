@@ -3,17 +3,17 @@
 ## Usage
 1. Install peer dependencies
 
-Base
+1.1 Base
 ```bash
 yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import
 ```
 
-React
+1.2 React
 ```bash
 yarn add -D eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
-AngularJs
+1.3 AngularJs
 ```bash
 yarn add -D eslint-plugin-angular
 ```
