@@ -15,6 +15,6 @@ yarn add -D @redspark/eslint-config
 3. Add config into your .eslintrc file
 ```json
 {
-  "extends": "@envisioning"
+  "extends": "@redspark"
 }
 ```
