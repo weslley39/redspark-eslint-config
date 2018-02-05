@@ -5,17 +5,17 @@
 
 1.1 Base
 ```bash
-yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import
+yarn add -D eslint eslint-config-airbnb-base eslint-plugin-import
 ```
 
 1.2 React
 ```bash
-yarn add -D eslint-plugin-jsx-a11y eslint-plugin-react
+yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
 1.3 AngularJs
 ```bash
-yarn add -D eslint-plugin-angular
+yarn add -D eslint eslint-plugin-angular
 ```
 
 2. Install this package
