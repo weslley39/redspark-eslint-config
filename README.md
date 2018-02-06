@@ -3,14 +3,14 @@
 ## Usage
 1. Install peer dependencies
 
-1.1 Base
+1.1 Pure Js
 ```bash
 yarn add -D eslint babel-eslint eslint-config-airbnb-base eslint-plugin-import
 ```
 
 1.2 React
 ```bash
-yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-import
 ```
 
 1.3 AngularJs
@@ -23,25 +23,30 @@ yarn add -D eslint eslint-plugin-angular
 yarn add -D @redspark/eslint-config
 ```
 
-3. Add config into your .eslintrc file
+3. Add config into your .eslintrc file for use `Pure Js`
 ```json
 {
   "extends": "@redspark"
 }
 ```
 
-If you will use with `AngularJs`, please add this too:
+3.1. Add config into your .eslintrc file for use `AngularJs`
 
 ```json
 {
-  "plugins": ["angular"],
+  "extends": "@redspark/eslint-config/angular"
+}}
+```
+3.2. Add config into your .eslintrc file for use `React`
+
+```json
+{
+  "extends": "@redspark/eslint-config/react"
 }
 ```
 
-If you will use with `React`, please add this too:
+Obs: To use with Gulp, please install
 
-```json
-{
-  "plugins": ["react"],
-}
+```bash
+yarn add -D gulp-eslint
 ```
