@@ -1,7 +1,7 @@
 module.exports = {
   "parser": "babel-eslint",
-  "extends": ["airbnb"],
-  "plugins": ["react"],
+  "extends": "airbnb",
+  "plugins": [ "react" ],
   "rules": {
     "react/no-array-index-key": 0,
     "react/prefer-stateless-function": 1,
