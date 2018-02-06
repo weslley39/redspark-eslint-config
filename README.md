@@ -20,7 +20,7 @@ yarn add -D eslint eslint-plugin-angular
 
 2. Install this package
 ```bash
-yarn add -D @redspark/eslint-config
+yarn add -D weslley39/redspark-eslint-config
 ```
 
 3. Add config into your .eslintrc file for use `Pure Js`
