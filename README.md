@@ -5,7 +5,7 @@
 
 1.1 Base
 ```bash
-yarn add -D eslint eslint-config-airbnb-base eslint-plugin-import
+yarn add -D eslint babel-eslint eslint-config-airbnb-base eslint-plugin-import
 ```
 
 1.2 React
