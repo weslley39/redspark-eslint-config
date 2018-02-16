@@ -35,7 +35,7 @@ yarn add -D weslley39/redspark-eslint-config
 ```json
 {
   "extends": "@redspark/eslint-config/angular"
-}}
+}
 ```
 3.2. Add config into your .eslintrc file for use `React`
 
